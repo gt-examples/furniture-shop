@@ -280,12 +280,12 @@
             "t": "span"
           },
           "in-stock": {
-            "c": "En stock",
+            "c": "En Stock",
             "i": 3,
             "t": "span"
           },
           "out-of-stock": {
-            "c": "Agotado",
+            "c": "Sin existencias",
             "i": 3,
             "t": "span"
           }
@@ -334,11 +334,6 @@
     "i": 1,
     "t": "h2"
   },
-  "933fa7740fe8c681": {
-    "i": 1,
-    "k": "_gt_value_1",
-    "v": "v"
-  },
   "9761415047e5023f": [
     {
       "c": "Colecciones Seleccionadas",
@@ -347,12 +342,12 @@
     },
     {
       "c": [
-        "Muebles para",
+        "Muebles para una",
         {
           "i": 3,
           "t": "br"
         },
-        "una Vida Consciente"
+        "Vida Consciente"
       ],
       "i": 2,
       "t": "h1"
@@ -363,12 +358,20 @@
       "t": "p"
     }
   ],
+  "980341ff8f49b488": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " / 5"
+  ],
   "9b0b8c52f79371d1": {
     "c": "Envío",
     "i": 1,
     "t": "span"
   },
-  "b92385b34d0a19f0": "Una demo moderna de comercio electrónico de muebles que muestra las capacidades de internacionalización de General Translation. Explora sofás, mesas, camas y más.",
+  "b92385b34d0a19f0": "Una demostración moderna de comercio electrónico de muebles que muestra la internacionalización con General Translation. Explora sofás, mesas, camas y mucho más.",
   "c340c0536d25e713": [
     "Hasta ",
     {
@@ -388,7 +391,7 @@
     "i": 1,
     "t": "h3"
   },
-  "ca13edcb2af07b35": "Agregar al carrito",
+  "ca13edcb2af07b35": "Añadir al carrito",
   "cc90ecd6915d3d41": [
     {
       "c": "Reseñas de clientes",
@@ -424,7 +427,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " de elementos"
+            " elementos"
           ],
           "i": 2,
           "t": "C2"
@@ -436,7 +439,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " de elementos"
+            " elementos"
           ],
           "i": 2,
           "t": "C2"
@@ -448,7 +451,7 @@
               "k": "_gt_n_3",
               "v": "n"
             },
-            " de elementos"
+            " elementos"
           ],
           "i": 2,
           "t": "C2"
@@ -472,7 +475,7 @@
     "t": "Plural"
   },
   "d43d8327999de115": "Vaciar carrito",
-  "d531ece6fb8c6908": "Atelier Home Furniture | General Translation",
+  "d531ece6fb8c6908": "Atelier Muebles para el Hogar | General Translation",
   "d536892d4c7d0388": {
     "c": "Color",
     "i": 1,

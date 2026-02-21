@@ -6,13 +6,13 @@
     "t": "h2"
   },
   "0532c9d9d3d15d09": [
-    "Cette application de démonstration est construite avec ",
+    "Cette application est une démo construite avec ",
     {
       "c": "General Translation",
       "i": 1,
       "t": "a"
     },
-    " pour illustrer l'internationalisation. Il ne s'agit pas d'une vraie boutique."
+    " pour illustrer l'internationalisation. Ce n'est pas une vraie boutique."
   ],
   "0e7631abb79c387a": [
     {
@@ -334,11 +334,6 @@
     "i": 1,
     "t": "h2"
   },
-  "933fa7740fe8c681": {
-    "i": 1,
-    "k": "_gt_value_1",
-    "v": "v"
-  },
   "9761415047e5023f": [
     {
       "c": "Collections Sélectionnées",
@@ -363,12 +358,20 @@
       "t": "p"
     }
   ],
+  "980341ff8f49b488": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " / 5"
+  ],
   "9b0b8c52f79371d1": {
     "c": "Livraison",
     "i": 1,
     "t": "span"
   },
-  "b92385b34d0a19f0": "Une démo moderne de boutique de meubles en ligne qui met en avant la prise en charge de l’internationalisation avec General Translation. Parcourez des canapés, des tables, des lits et bien plus encore.",
+  "b92385b34d0a19f0": "Une boutique en ligne de meubles modernes en démonstration, qui met en avant l’internationalisation avec General Translation. Parcourez des canapés, des tables, des lits et bien plus encore.",
   "c340c0536d25e713": [
     "Jusqu'à ",
     {

@@ -38,7 +38,7 @@ export default function ProductDetailClient({ product, productReviews }: { produ
 
         {/* Product info */}
         <div>
-          <h1 className="text-3xl font-light mb-2"><Var>{product.name}</Var></h1>
+          <h1 className="text-3xl font-light mb-2">{t(product.name)}</h1>
           <div className="text-2xl text-[#C9A96E] font-semibold mb-4">
             <Currency currency="USD">{product.price}</Currency>
           </div>

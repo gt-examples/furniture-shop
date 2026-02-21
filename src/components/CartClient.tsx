@@ -61,7 +61,7 @@ export default function CartClient() {
               </div>
               <div className="flex-1 min-w-0">
                 <Link href={`/catalog/${productId}`} className="font-medium text-[#2C2C2C] hover:text-[#C9A96E] transition-colors">
-                  <T><Var>{product!.name}</Var></T>
+                  {t(product!.name)}
                 </Link>
                 <div className="text-[#C9A96E] font-semibold mt-1">
                   <Currency currency="USD">{product!.price}</Currency>
