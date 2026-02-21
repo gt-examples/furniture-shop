@@ -1,19 +1,23 @@
 {
   "022f9c89754947ce": "Parcourir le catalogue",
+  "037c3288fab992b1": "rangement",
   "04c76b20600a7c27": {
     "c": "Pièces en vedette",
     "i": 1,
     "t": "h2"
   },
   "0532c9d9d3d15d09": [
-    "Cette application est une démo construite avec ",
+    "Cette application de démonstration est construite avec ",
     {
       "c": "General Translation",
       "i": 1,
       "t": "a"
     },
-    " pour illustrer l'internationalisation. Ce n'est pas une vraie boutique."
+    " pour illustrer l'internationalisation. Il ne s'agit pas d'une vraie boutique."
   ],
+  "0582c780e1e0e805": "Salle à manger",
+  "0638f727aec2a644": "noyer",
+  "097b8ce024d02067": "Lampadaire en laiton à arc avec abat-jour cylindrique en lin. Socle en marbre lesté pour plus de stabilité. Compatible LED avec variateur.",
   "0e7631abb79c387a": [
     {
       "c": "Votre panier",
@@ -27,6 +31,10 @@
     }
   ],
   "111a44209dc6e701": "Supprimer",
+  "14e910de6d30773c": "Lit plateforme Nara",
+  "16d4b1642e8fcaa2": "La chaise la plus confortable que j’aie jamais eue. Une véritable œuvre d’art.",
+  "173d4d98a5d11606": "cuir",
+  "18e28258b1b65d2c": "Incroyablement confortable et encore plus beau en vrai. Le lin est superbe.",
   "19fb6773083d1895": {
     "d": {
       "b": {
@@ -103,17 +111,23 @@
   },
   "23e749f227fab8ee": "Atelier Home",
   "29ebc1b119853fce": "Catalogue",
+  "2d23e0a0f7f702f3": "Table à manger Mori",
   "32c4cfc0bc03b4b0": {
     "c": "Aucun produit ne correspond à vos filtres. Essayez d'ajuster votre sélection.",
     "i": 1,
     "t": "p"
   },
+  "34a7d2f305897561": "chaises",
   "34b2195b9ad72d79": "Passer à la caisse",
   "3703a0da80c9adde": {
     "c": "Prix maximum",
     "i": 1,
     "t": "h3"
   },
+  "389100854585dfad": "Chambre",
+  "3e0077f6480b802f": "Vaut chaque centime. La qualité du cadre en chêne est exceptionnelle.",
+  "45d3b4589c69111c": "Chaise de salle à manger Forma",
+  "4800094819e49e31": "Canapé 3 places Oslo",
   "497cc7f4dfd2075b": {
     "c": {
       "d": {
@@ -147,6 +161,7 @@
     "i": 1,
     "t": "h3"
   },
+  "4a517b2fb2be8d09": "Buffet bas en frêne à façade à lattes avec étagères intérieures réglables. Des poignées en laiton apportent une touche chaleureuse au bois clair.",
   "4aeebb09c93a1ee0": {
     "c": "Catalogue",
     "i": 1,
@@ -157,6 +172,7 @@
     "i": 1,
     "t": "span"
   },
+  "53b34ec196b4f120": "Bibliothèque ouverte à cinq niveaux en chêne blanc massif. L’espacement asymétrique des étagères crée un intérêt visuel tout en pouvant accueillir des objets de différentes tailles.",
   "53bdafb1ece3c13c": {
     "c": [
       {
@@ -270,6 +286,8 @@
     "i": 1,
     "t": "div"
   },
+  "5491dd2caa7d78a9": "Salon",
+  "54ee9c0e94c24537": "Table basse Zen",
   "55639b09575c7a56": {
     "c": {
       "d": {
@@ -303,6 +321,10 @@
     "i": 1,
     "t": "h1"
   },
+  "5767b7ae6e43436d": "canapés",
+  "579b22ac79be1df4": "Buffet Koto",
+  "57b6f38b9a0e95cb": "Créez un espace accueillant avec des canapés, des tables basses, des étagères et un éclairage qui concilie confort et lignes épurées.",
+  "67af7b20a97a488a": "lits",
   "6d3aee4c90aebc2a": [
     "Livraison estimée : ",
     {
@@ -313,17 +335,25 @@
     " jours ouvrables"
   ],
   "6eb807cd1232e8a8": "Panier",
+  "72128215322346ae": "J’adore le design. Les coussins ont mis quelques semaines à vraiment se faire à l’usage.",
+  "74e9c031ab979a01": "tables",
+  "7550dd8d69eaf310": "Concentrez-vous et créez grâce à un bureau bien conçu, avec un siège ergonomique et des rangements organisés.",
+  "7570b0577ca6e879": "métal",
+  "7ba0fd2bb81d5fe6": "La gestion des câbles est excellente. Le plateau du bureau est spacieux et agréable au toucher.",
   "7bdd118d7c6a6d00": {
     "c": "Résumé de la commande",
     "i": 1,
     "t": "h2"
   },
+  "7c4fe22086e2a0f7": "Table de chevet Luna",
   "800c4dcf86606b3e": "Tout afficher",
   "830aa72a6f039ab3": {
     "c": "Nouveautés",
     "i": 1,
     "t": "h2"
   },
+  "86e6edb49128a9aa": "crème",
+  "8a5c9dd92fcb2fc9": "cognac",
   "91fc99c9c961902f": {
     "c": "Catégorie",
     "i": 1,
@@ -371,7 +401,26 @@
     "i": 1,
     "t": "span"
   },
-  "b92385b34d0a19f0": "Une boutique en ligne de meubles modernes en démonstration, qui met en avant l’internationalisation avec General Translation. Parcourez des canapés, des tables, des lits et bien plus encore.",
+  "9f56a31e08495d35": "naturel",
+  "9fb81ec03631b1eb": "Le cuir est incroyablement doux et, après 6 mois, la patine est superbe.",
+  "a4ed7adc9fba07f0": "Les assemblages sont impeccables. Aucun grincement, stabilité parfaite. Le veinage du noyer est superbe.",
+  "a714f1308dff9b8b": "clair",
+  "a84c0666f00c0c6b": "laiton",
+  "a89a73bc278a41b0": "Superbe et minimaliste. Exactement l’esthétique que je cherchais.",
+  "aa1e35d5c5481567": "frêne",
+  "ab5063481718352a": "Chaise de salle à manger empilable avec dossier sculptural. Chêne cintré à la vapeur et assise en corde de papier tressée.",
+  "ab7705d302ac5aae": "linge de maison",
+  "abd5f7509ccfb3eb": "Fauteuil de salon Vela",
+  "b0cb68b3da7e1aa3": "Rassemblez-vous autour de tables en bois massif et de chaises sculpturales conçues pour donner à chaque repas une intention particulière.",
+  "b0fc08b76cb313bc": "Reposez-vous et ressourcez-vous, entouré de cadres de lit en bois chaleureux, de tables de chevet et d’un éclairage d’ambiance doux.",
+  "b3ebdf162810c334": "Standard national",
+  "b4fb4d1fd6aa5eea": "Étagère modulaire Muji",
+  "b5ef6ddd6bb2582e": "Lampadaire arc",
+  "b69b6930d664674f": "Bureau d’écriture Aura",
+  "b92385b34d0a19f0": "Une démo moderne de boutique de meubles en ligne, mettant en avant l’internationalisation avec General Translation. Parcourez des canapés, des tables, des lits et plus encore.",
+  "ba87af213646bec2": "Système d’étagères modulable et configurable. Cinq rangées, trois colonnes. Ajoutez des tiroirs, des portes ou laissez le tout ouvert. Chêne massif avec assemblages à queues d’aronde.",
+  "bf78134d06f0d41b": "bureaux",
+  "c0288285cea7a9ae": "Lit plateforme à profil bas en noyer américain massif. Assemblages d’inspiration japonaise, sans quincaillerie visible. Sommier à lattes inclus.",
   "c340c0536d25e713": [
     "Jusqu'à ",
     {
@@ -417,6 +466,8 @@
       "t": "p"
     }
   ],
+  "ccb79809e4318157": "Table de chevet compacte avec tiroir et étagère ouverte. Coulisses de tiroir à fermeture douce. S’accorde parfaitement avec le lit plateforme Nara.",
+  "cda31a9a4b6ea03b": "Table de salle à manger en chêne blanc massif avec bord naturel. Finition manuelle à l’huile mate naturelle qui met en valeur le veinage du bois.",
   "d3f83eefb0bd2f01": {
     "d": {
       "b": {
@@ -481,6 +532,7 @@
     "i": 1,
     "t": "h3"
   },
+  "d90ea80804241b55": "Local (dans un rayon de 50 km)",
   "dd4307d70a4178c0": {
     "c": [
       {
@@ -585,15 +637,28 @@
     "i": 1,
     "t": "span"
   },
+  "df7ea979d6a46f87": "Bibliothèque Haven",
+  "e0dbf8ea9af44393": "Bureau",
+  "e1e568362f95d224": "Finition irréprochable. La finition à l’huile naturelle est très agréable au toucher.",
+  "e58e7404a2f11bff": "éclairage",
   "e619ac3f4de61fb1": {
     "c": "Sélectionnez une pièce ci-dessus pour parcourir les meubles sélectionnés pour cet espace.",
     "i": 1,
     "t": "p"
   },
+  "e71d68e634b67769": "Table basse ovale aux bords arrondis avec tablette inférieure. Chêne massif intégral avec finition huilée appliquée à la main.",
+  "e7c0553f70c9ca10": "International",
+  "e8caefaf4ee4081c": "Canapé aux lignes épurées et aux proportions généreuses. Structure en chêne massif avec coussins en mousse haute résilience, habillés de lin européen de qualité supérieure.",
+  "ec8880884cbcda48": "brun foncé",
+  "ee0bb8f51c03153b": "chêne",
   "f15a46fd65bc6906": "Chambres",
   "f307a83d2240a0c6": {
     "c": "Aucun avis pour ce produit.",
     "i": 1,
     "t": "p"
-  }
+  },
+  "f6119f523c93b780": "Le détail du bord naturel est saisissant. Une vraie pièce maîtresse dans notre salle à manger.",
+  "f78c6bdd9349aa9c": "Express national",
+  "f7da08ed1cad34f7": "Bureau minimaliste en frêne européen avec tiroir et système de gestion des câbles intégré. Pieds fuselés avec embouts en laiton.",
+  "fb7aebfeb22fd513": "Fauteuil lounge en cuir italien pleine fleur avec coque en contreplaqué cintré. Le cuir développe une patine riche avec le temps."
 }

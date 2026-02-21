@@ -1,5 +1,6 @@
 {
   "022f9c89754947ce": "Explorar catálogo",
+  "037c3288fab992b1": "almacenamiento",
   "04c76b20600a7c27": {
     "c": "Piezas destacadas",
     "i": 1,
@@ -14,6 +15,9 @@
     },
     " para mostrar la internacionalización. No es una tienda real."
   ],
+  "0582c780e1e0e805": "Comedor",
+  "0638f727aec2a644": "nogal",
+  "097b8ce024d02067": "Lámpara de pie arqueada de latón con pantalla cilíndrica de lino. Base de mármol lastrada que garantiza la estabilidad. Regulable y compatible con bombillas LED.",
   "0e7631abb79c387a": [
     {
       "c": "Tu carrito",
@@ -27,6 +31,10 @@
     }
   ],
   "111a44209dc6e701": "Eliminar",
+  "14e910de6d30773c": "Cama tipo plataforma Nara",
+  "16d4b1642e8fcaa2": "La silla más cómoda que he tenido nunca. Una obra de arte.",
+  "173d4d98a5d11606": "cuero",
+  "18e28258b1b65d2c": "Increíblemente cómodo y se ve aún mejor en persona. El lino es precioso.",
   "19fb6773083d1895": {
     "d": {
       "b": {
@@ -103,17 +111,23 @@
   },
   "23e749f227fab8ee": "Atelier Home",
   "29ebc1b119853fce": "Catálogo",
+  "2d23e0a0f7f702f3": "Mesa de comedor Mori",
   "32c4cfc0bc03b4b0": {
     "c": "Ningún producto coincide con tus filtros. Intenta ajustar tu selección.",
     "i": 1,
     "t": "p"
   },
+  "34a7d2f305897561": "sillas",
   "34b2195b9ad72d79": "Proceder al pago",
   "3703a0da80c9adde": {
     "c": "Precio Máximo",
     "i": 1,
     "t": "h3"
   },
+  "389100854585dfad": "Dormitorio",
+  "3e0077f6480b802f": "Vale cada centavo. La calidad del armazón de roble es excepcional.",
+  "45d3b4589c69111c": "Silla de comedor Forma",
+  "4800094819e49e31": "Sofá de tres plazas Oslo",
   "497cc7f4dfd2075b": {
     "c": {
       "d": {
@@ -147,6 +161,7 @@
     "i": 1,
     "t": "h3"
   },
+  "4a517b2fb2be8d09": "Aparador de fresno con frente de lamas y balda interior regulable. Los tiradores de latón aportan un toque cálido a la madera clara.",
   "4aeebb09c93a1ee0": {
     "c": "Catálogo",
     "i": 1,
@@ -157,6 +172,7 @@
     "i": 1,
     "t": "span"
   },
+  "53b34ec196b4f120": "Librería abierta de cinco niveles en roble blanco macizo. La disposición asimétrica de los estantes aporta interés visual y permite acomodar objetos de diversos tamaños.",
   "53bdafb1ece3c13c": {
     "c": [
       {
@@ -270,6 +286,8 @@
     "i": 1,
     "t": "div"
   },
+  "5491dd2caa7d78a9": "Sala de estar",
+  "54ee9c0e94c24537": "Mesa de centro Zen",
   "55639b09575c7a56": {
     "c": {
       "d": {
@@ -285,7 +303,7 @@
             "t": "span"
           },
           "out-of-stock": {
-            "c": "Sin existencias",
+            "c": "Agotado",
             "i": 3,
             "t": "span"
           }
@@ -303,6 +321,10 @@
     "i": 1,
     "t": "h1"
   },
+  "5767b7ae6e43436d": "sofás",
+  "579b22ac79be1df4": "Aparador Koto",
+  "57b6f38b9a0e95cb": "Crea un espacio acogedor con sofás, mesas de centro, estanterías e iluminación que equilibre la comodidad con un diseño limpio.",
+  "67af7b20a97a488a": "camas",
   "6d3aee4c90aebc2a": [
     "Entrega estimada: ",
     {
@@ -313,17 +335,25 @@
     " días hábiles"
   ],
   "6eb807cd1232e8a8": "Carrito",
+  "72128215322346ae": "Me encanta el diseño. Los cojines tardaron unas semanas en amoldarse por completo.",
+  "74e9c031ab979a01": "mesas",
+  "7550dd8d69eaf310": "Concéntrate y crea en un escritorio bien diseñado, acompañado de un asiento ergonómico y almacenamiento organizado.",
+  "7570b0577ca6e879": "metal",
+  "7ba0fd2bb81d5fe6": "El sistema de organización de cables es una maravilla. La superficie del escritorio es amplia y suave.",
   "7bdd118d7c6a6d00": {
     "c": "Resumen del pedido",
     "i": 1,
     "t": "h2"
   },
+  "7c4fe22086e2a0f7": "Mesita de noche Luna",
   "800c4dcf86606b3e": "Ver todo",
   "830aa72a6f039ab3": {
     "c": "Novedades",
     "i": 1,
     "t": "h2"
   },
+  "86e6edb49128a9aa": "crema",
+  "8a5c9dd92fcb2fc9": "coñac",
   "91fc99c9c961902f": {
     "c": "Categoría",
     "i": 1,
@@ -342,12 +372,12 @@
     },
     {
       "c": [
-        "Muebles para una",
+        "Muebles para",
         {
           "i": 3,
           "t": "br"
         },
-        "Vida Consciente"
+        "una Vida Consciente"
       ],
       "i": 2,
       "t": "h1"
@@ -371,7 +401,26 @@
     "i": 1,
     "t": "span"
   },
-  "b92385b34d0a19f0": "Una demostración moderna de comercio electrónico de muebles que muestra la internacionalización con General Translation. Explora sofás, mesas, camas y mucho más.",
+  "9f56a31e08495d35": "natural",
+  "9fb81ec03631b1eb": "El cuero es increíblemente suave y la pátina que ha adquirido tras 6 meses es hermosa.",
+  "a4ed7adc9fba07f0": "La carpintería es extraordinaria. No cruje, es completamente sólida. La veta del nogal es preciosa.",
+  "a714f1308dff9b8b": "claro",
+  "a84c0666f00c0c6b": "latón",
+  "a89a73bc278a41b0": "Hermoso y minimalista. Justo la estética que estaba buscando.",
+  "aa1e35d5c5481567": "fresno",
+  "ab5063481718352a": "Silla de comedor apilable con respaldo escultórico. Roble curvado al vapor con asiento de cuerda de papel trenzada.",
+  "ab7705d302ac5aae": "ropa de cama",
+  "abd5f7509ccfb3eb": "Sillón de descanso Vela",
+  "b0cb68b3da7e1aa3": "Reúnete alrededor de mesas de madera maciza y sillas escultóricas diseñadas para que cada comida se sienta especial.",
+  "b0fc08b76cb313bc": "Descansa y recarga energías rodeado de cálidas camas de madera, mesillas de noche e iluminación ambiental suave.",
+  "b3ebdf162810c334": "Estándar nacional",
+  "b4fb4d1fd6aa5eea": "Estantería modular Muji",
+  "b5ef6ddd6bb2582e": "Lámpara de pie con arco",
+  "b69b6930d664674f": "Escritorio Aura",
+  "b92385b34d0a19f0": "Una demo de comercio electrónico de mobiliario moderno que muestra la internacionalización con General Translation. Explora sofás, mesas, camas y más.",
+  "ba87af213646bec2": "Sistema de estanterías modular y configurable. Cinco filas y tres columnas. Añade cajones, puertas o deja huecos abiertos. Roble macizo con uniones de cola de milano.",
+  "bf78134d06f0d41b": "escritorios",
+  "c0288285cea7a9ae": "Cama baja tipo plataforma en nogal americano macizo. Ensamblaje de inspiración japonesa sin herrajes visibles. Incluye base de lamas.",
   "c340c0536d25e713": [
     "Hasta ",
     {
@@ -391,7 +440,7 @@
     "i": 1,
     "t": "h3"
   },
-  "ca13edcb2af07b35": "Añadir al carrito",
+  "ca13edcb2af07b35": "Agregar al carrito",
   "cc90ecd6915d3d41": [
     {
       "c": "Reseñas de clientes",
@@ -417,6 +466,8 @@
       "t": "p"
     }
   ],
+  "ccb79809e4318157": "Mesita de noche compacta con un cajón y un estante abierto. Guías de cierre suave en el cajón. Combina a la perfección con la Nara Platform Bed.",
+  "cda31a9a4b6ea03b": "Mesa de comedor de roble blanco macizo con canto vivo. Acabado a mano con un aceite natural mate que realza el carácter de la veta.",
   "d3f83eefb0bd2f01": {
     "d": {
       "b": {
@@ -475,12 +526,13 @@
     "t": "Plural"
   },
   "d43d8327999de115": "Vaciar carrito",
-  "d531ece6fb8c6908": "Atelier Muebles para el Hogar | General Translation",
+  "d531ece6fb8c6908": "Atelier Home Furniture | General Translation",
   "d536892d4c7d0388": {
     "c": "Color",
     "i": 1,
     "t": "h3"
   },
+  "d90ea80804241b55": "Local (en un radio de 50 km)",
   "dd4307d70a4178c0": {
     "c": [
       {
@@ -585,15 +637,28 @@
     "i": 1,
     "t": "span"
   },
+  "df7ea979d6a46f87": "Estantería para libros Haven",
+  "e0dbf8ea9af44393": "Oficina",
+  "e1e568362f95d224": "Artesanía impecable. El acabado al aceite natural se siente magnífico.",
+  "e58e7404a2f11bff": "iluminación",
   "e619ac3f4de61fb1": {
     "c": "Selecciona una habitación arriba para explorar muebles seleccionados para ese espacio.",
     "i": 1,
     "t": "p"
   },
+  "e71d68e634b67769": "Mesa de centro ovalada con bordes redondeados y balda inferior. Roble macizo en toda la pieza con acabado al aceite aplicado a mano.",
+  "e7c0553f70c9ca10": "Internacional",
+  "e8caefaf4ee4081c": "Sofá de líneas limpias y proporciones generosas. Estructura de roble macizo con cojines de espuma de alta resiliencia, envueltos en lino europeo de primera calidad.",
+  "ec8880884cbcda48": "marrón oscuro",
+  "ee0bb8f51c03153b": "roble",
   "f15a46fd65bc6906": "Habitaciones",
   "f307a83d2240a0c6": {
     "c": "Aún no hay reseñas para este producto.",
     "i": 1,
     "t": "p"
-  }
+  },
+  "f6119f523c93b780": "El detalle de borde natural es impresionante. Es el verdadero centro de nuestra sala de comedor.",
+  "f78c6bdd9349aa9c": "Envío exprés nacional",
+  "f7da08ed1cad34f7": "Escritorio minimalista de fresno europeo, con un solo cajón y gestión de cables integrada. Patas cónicas rematadas en latón.",
+  "fb7aebfeb22fd513": "Sillón de descanso en cuero italiano de plena flor con estructura de madera contrachapada curvada. El cuero desarrolla una rica pátina con el tiempo."
 }
