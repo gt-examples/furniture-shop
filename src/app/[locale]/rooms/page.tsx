@@ -1,4 +1,5 @@
 import { T, Num } from "gt-next";
+import { Tx } from "gt-next/server";
 import Link from "next/link";
 import { rooms } from "@/data/rooms";
 import { products } from "@/data/products";
@@ -25,8 +26,8 @@ export default async function RoomsPage({ searchParams }: { searchParams: Promis
             href={`/rooms?room=${room.id}`}
             className={`rounded-lg p-6 text-center transition-all ${selectedRoom === room.id ? "bg-[#C9A96E] text-white" : "bg-white hover:shadow-md text-[#2C2C2C]"}`}
           >
+            <h3 className="font-medium mb-1"><Tx>{room.name}</Tx></h3>
             <T>
-              <h3 className="font-medium mb-1">{room.name}</h3>
               <p className={`text-xs ${selectedRoom === room.id ? "text-white/80" : "text-[#6B6B6B]"}`}>
                 <Num>{room.productCount}</Num> pieces
               </p>
@@ -38,10 +39,8 @@ export default async function RoomsPage({ searchParams }: { searchParams: Promis
       {/* Selected room products */}
       {activeRoom ? (
         <div>
-          <T>
-            <h2 className="text-2xl font-light mb-2">{activeRoom.name}</h2>
-            <p className="text-[#6B6B6B] mb-8">{activeRoom.description}</p>
-          </T>
+          <h2 className="text-2xl font-light mb-2"><Tx>{activeRoom.name}</Tx></h2>
+          <p className="text-[#6B6B6B] mb-8"><Tx>{activeRoom.description}</Tx></p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((p) => (
               <ProductCard key={p.id} product={p} />

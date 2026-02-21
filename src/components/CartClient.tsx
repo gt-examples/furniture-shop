@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { T, Currency, Num, Plural } from "gt-next";
+import { T, Var, Currency, Num, Plural, useGT } from "gt-next";
 import Link from "next/link";
 import { useCart } from "@/lib/cart-context";
 import { products } from "@/data/products";
@@ -9,6 +9,7 @@ import { shippingRegions } from "@/data/shipping";
 
 export default function CartClient() {
   const { items, updateQuantity, removeItem, clearCart, totalItems } = useCart();
+  const t = useGT();
   const [selectedRegion, setSelectedRegion] = useState("local");
 
   const cartProducts = items.map((item) => {
@@ -60,7 +61,7 @@ export default function CartClient() {
               </div>
               <div className="flex-1 min-w-0">
                 <Link href={`/catalog/${productId}`} className="font-medium text-[#2C2C2C] hover:text-[#C9A96E] transition-colors">
-                  <T>{product!.name}</T>
+                  <T><Var>{product!.name}</Var></T>
                 </Link>
                 <div className="text-[#C9A96E] font-semibold mt-1">
                   <Currency currency="USD">{product!.price}</Currency>
@@ -96,7 +97,7 @@ export default function CartClient() {
             className="w-full border border-[#E0D8CF] rounded px-3 py-2 text-sm mb-6 bg-[#F5F0EB]"
           >
             {shippingRegions.map((r) => (
-              <option key={r.id} value={r.id}>{r.name}</option>
+              <option key={r.id} value={r.id}>{t(r.name)}</option>
             ))}
           </select>
 
@@ -111,7 +112,7 @@ export default function CartClient() {
             </div>
             {shipping && (
               <div className="text-xs text-[#6B6B6B]">
-                <T>Estimated delivery: {shipping.deliveryDays} business days</T>
+                <T>Estimated delivery: <Var>{shipping.deliveryDays}</Var> business days</T>
               </div>
             )}
             <div className="flex justify-between font-semibold text-base border-t border-[#E0D8CF] pt-3">

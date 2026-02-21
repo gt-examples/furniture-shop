@@ -5,6 +5,15 @@
     "i": 1,
     "t": "h2"
   },
+  "0532c9d9d3d15d09": [
+    "Cette application de démonstration est construite avec ",
+    {
+      "c": "General Translation",
+      "i": 1,
+      "t": "a"
+    },
+    " pour illustrer l'internationalisation. Il ne s'agit pas d'une vraie boutique."
+  ],
   "0e7631abb79c387a": [
     {
       "c": "Votre panier",
@@ -74,6 +83,18 @@
     },
     "i": 1,
     "t": "Plural"
+  },
+  "1e889ea7119b4b7c": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " pièces"
+    ],
+    "i": 1,
+    "t": "p"
   },
   "235998c8a68c6e58": {
     "c": "Gratuit",
@@ -282,6 +303,15 @@
     "i": 1,
     "t": "h1"
   },
+  "6d3aee4c90aebc2a": [
+    "Livraison estimée : ",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    },
+    " jours ouvrables"
+  ],
   "6eb807cd1232e8a8": "Panier",
   "7bdd118d7c6a6d00": {
     "c": "Résumé de la commande",
@@ -303,6 +333,11 @@
     "c": "Acheter par pièce",
     "i": 1,
     "t": "h2"
+  },
+  "933fa7740fe8c681": {
+    "i": 1,
+    "k": "_gt_value_1",
+    "v": "v"
   },
   "9761415047e5023f": [
     {
@@ -333,7 +368,7 @@
     "i": 1,
     "t": "span"
   },
-  "b92385b34d0a19f0": "Une boutique de mobilier moderne en ligne servant de démo, qui met en avant l’internationalisation avec General Translation. Découvrez des canapés, tables, lits et bien plus encore.",
+  "b92385b34d0a19f0": "Une démo moderne de boutique de meubles en ligne qui met en avant la prise en charge de l’internationalisation avec General Translation. Parcourez des canapés, des tables, des lits et bien plus encore.",
   "c340c0536d25e713": [
     "Jusqu'à ",
     {
@@ -343,6 +378,11 @@
     },
     " USD"
   ],
+  "c4e78e2dce9a5f98": {
+    "c": "Matériaux",
+    "i": 1,
+    "t": "h3"
+  },
   "c8fc0d87c5f80292": {
     "c": "Matériau",
     "i": 1,

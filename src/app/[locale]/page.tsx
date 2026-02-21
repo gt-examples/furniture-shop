@@ -1,4 +1,5 @@
 import { T, Currency, Num } from "gt-next";
+import { Tx } from "gt-next/server";
 import Link from "next/link";
 import { products } from "@/data/products";
 import { rooms } from "@/data/rooms";
@@ -49,10 +50,8 @@ export default function HomePage() {
                     <rect x="25" y="40" width="30" height="15" rx="2" fill="currentColor" opacity="0.3" />
                   </svg>
                 </div>
-                <T>
-                  <h3 className="font-medium text-[#2C2C2C] group-hover:text-[#C9A96E] transition-colors">{room.name}</h3>
-                  <p className="text-sm text-[#6B6B6B] mt-1">{room.description}</p>
-                </T>
+                <h3 className="font-medium text-[#2C2C2C] group-hover:text-[#C9A96E] transition-colors"><Tx>{room.name}</Tx></h3>
+                <p className="text-sm text-[#6B6B6B] mt-1"><Tx>{room.description}</Tx></p>
               </Link>
             ))}
           </div>

@@ -1,11 +1,12 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { T, Plural, Num } from "gt-next";
+import { T, Plural, Num, useGT } from "gt-next";
 import { products, categories, materials, colors } from "@/data/products";
 import ProductCard from "@/components/ProductCard";
 
 export default function CatalogClient() {
+  const t = useGT();
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedMaterials, setSelectedMaterials] = useState<string[]>([]);
   const [selectedColors, setSelectedColors] = useState<string[]>([]);
@@ -37,7 +38,7 @@ export default function CatalogClient() {
               {categories.map((c) => (
                 <label key={c} className="flex items-center gap-2 mb-2 text-sm cursor-pointer">
                   <input type="checkbox" checked={selectedCategories.includes(c)} onChange={() => toggle(selectedCategories, c, setSelectedCategories)} className="accent-[#C9A96E]" />
-                  <T><span className="capitalize">{c}</span></T>
+                  <span className="capitalize">{t(c)}</span>
                 </label>
               ))}
             </div>
@@ -46,7 +47,7 @@ export default function CatalogClient() {
               {materials.map((m) => (
                 <label key={m} className="flex items-center gap-2 mb-2 text-sm cursor-pointer">
                   <input type="checkbox" checked={selectedMaterials.includes(m)} onChange={() => toggle(selectedMaterials, m, setSelectedMaterials)} className="accent-[#C9A96E]" />
-                  <T><span className="capitalize">{m}</span></T>
+                  <span className="capitalize">{t(m)}</span>
                 </label>
               ))}
             </div>
@@ -55,7 +56,7 @@ export default function CatalogClient() {
               {colors.map((c) => (
                 <label key={c} className="flex items-center gap-2 mb-2 text-sm cursor-pointer">
                   <input type="checkbox" checked={selectedColors.includes(c)} onChange={() => toggle(selectedColors, c, setSelectedColors)} className="accent-[#C9A96E]" />
-                  <T><span className="capitalize">{c}</span></T>
+                  <span className="capitalize">{t(c)}</span>
                 </label>
               ))}
             </div>
