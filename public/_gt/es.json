@@ -1,0 +1,556 @@
+{
+  "022f9c89754947ce": "Explorar catálogo",
+  "04c76b20600a7c27": {
+    "c": "Piezas destacadas",
+    "i": 1,
+    "t": "h2"
+  },
+  "0e7631abb79c387a": [
+    {
+      "c": "Tu carrito",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Tu carrito está vacío. Explora nuestro catálogo para encontrar algo que te guste.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "111a44209dc6e701": "Eliminar",
+  "19fb6773083d1895": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " productos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " productos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " productos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " producto"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "235998c8a68c6e58": {
+    "c": "Gratis",
+    "i": 1,
+    "t": "span"
+  },
+  "23e749f227fab8ee": "Atelier Home",
+  "29ebc1b119853fce": "Catálogo",
+  "32c4cfc0bc03b4b0": {
+    "c": "Ningún producto coincide con tus filtros. Intenta ajustar tu selección.",
+    "i": 1,
+    "t": "p"
+  },
+  "34b2195b9ad72d79": "Proceder al pago",
+  "3703a0da80c9adde": {
+    "c": "Precio Máximo",
+    "i": 1,
+    "t": "h3"
+  },
+  "497cc7f4dfd2075b": {
+    "c": {
+      "d": {
+        "b": {
+          "backorder": {
+            "c": "Pedido pendiente",
+            "i": 3,
+            "t": "span"
+          },
+          "in-stock": {
+            "c": "En Stock",
+            "i": 3,
+            "t": "span"
+          },
+          "out-of-stock": {
+            "c": "Sin existencias",
+            "i": 3,
+            "t": "span"
+          }
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "span"
+  },
+  "49ce78b4d6476b40": {
+    "c": "Región de envío",
+    "i": 1,
+    "t": "h3"
+  },
+  "4aeebb09c93a1ee0": {
+    "c": "Catálogo",
+    "i": 1,
+    "t": "h1"
+  },
+  "4f94e7beb32bcd47": {
+    "c": "Total",
+    "i": 1,
+    "t": "span"
+  },
+  "53bdafb1ece3c13c": {
+    "c": [
+      {
+        "c": "Dimensiones",
+        "i": 2,
+        "t": "h3"
+      },
+      {
+        "c": {
+          "c": [
+            {
+              "c": [
+                {
+                  "c": "Ancho",
+                  "i": 6,
+                  "t": "td"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 8,
+                      "k": "_gt_n_8",
+                      "v": "n"
+                    },
+                    " cm"
+                  ],
+                  "i": 7,
+                  "t": "td"
+                }
+              ],
+              "i": 5,
+              "t": "tr"
+            },
+            {
+              "c": [
+                {
+                  "c": "Profundidad",
+                  "i": 10,
+                  "t": "td"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 12,
+                      "k": "_gt_n_12",
+                      "v": "n"
+                    },
+                    " cm"
+                  ],
+                  "i": 11,
+                  "t": "td"
+                }
+              ],
+              "i": 9,
+              "t": "tr"
+            },
+            {
+              "c": [
+                {
+                  "c": "Alto",
+                  "i": 14,
+                  "t": "td"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 16,
+                      "k": "_gt_n_16",
+                      "v": "n"
+                    },
+                    " cm"
+                  ],
+                  "i": 15,
+                  "t": "td"
+                }
+              ],
+              "i": 13,
+              "t": "tr"
+            },
+            {
+              "c": [
+                {
+                  "c": "Peso",
+                  "i": 18,
+                  "t": "td"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 20,
+                      "k": "_gt_n_20",
+                      "v": "n"
+                    },
+                    " kg"
+                  ],
+                  "i": 19,
+                  "t": "td"
+                }
+              ],
+              "i": 17,
+              "t": "tr"
+            }
+          ],
+          "i": 4,
+          "t": "tbody"
+        },
+        "i": 3,
+        "t": "table"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "55639b09575c7a56": {
+    "c": {
+      "d": {
+        "b": {
+          "backorder": {
+            "c": "Pedido pendiente — Envío en 2-4 semanas",
+            "i": 3,
+            "t": "span"
+          },
+          "in-stock": {
+            "c": "En stock",
+            "i": 3,
+            "t": "span"
+          },
+          "out-of-stock": {
+            "c": "Agotado",
+            "i": 3,
+            "t": "span"
+          }
+        },
+        "t": "b"
+      },
+      "i": 2,
+      "t": "Branch"
+    },
+    "i": 1,
+    "t": "div"
+  },
+  "55dcb10dd2ec168b": {
+    "c": "Tu carrito",
+    "i": 1,
+    "t": "h1"
+  },
+  "6eb807cd1232e8a8": "Carrito",
+  "7bdd118d7c6a6d00": {
+    "c": "Resumen del pedido",
+    "i": 1,
+    "t": "h2"
+  },
+  "800c4dcf86606b3e": "Ver todo",
+  "830aa72a6f039ab3": {
+    "c": "Novedades",
+    "i": 1,
+    "t": "h2"
+  },
+  "91fc99c9c961902f": {
+    "c": "Categoría",
+    "i": 1,
+    "t": "h3"
+  },
+  "92e01740ca5ff89f": {
+    "c": "Comprar por habitación",
+    "i": 1,
+    "t": "h2"
+  },
+  "9761415047e5023f": [
+    {
+      "c": "Colecciones Curadas",
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        "Muebles para",
+        {
+          "i": 3,
+          "t": "br"
+        },
+        "Vivir con Intención"
+      ],
+      "i": 2,
+      "t": "h1"
+    },
+    {
+      "c": "Cada pieza está elaborada con materiales sostenibles, con énfasis en la calidad, la durabilidad y el diseño atemporal.",
+      "i": 4,
+      "t": "p"
+    }
+  ],
+  "9b0b8c52f79371d1": {
+    "c": "Envío",
+    "i": 1,
+    "t": "span"
+  },
+  "b92385b34d0a19f0": "Demostración de tienda online de muebles modernos que muestra la internacionalización con General Translation. Explora sofás, mesas, camas y mucho más.",
+  "c340c0536d25e713": [
+    "Hasta ",
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " USD"
+  ],
+  "c8fc0d87c5f80292": {
+    "c": "Material",
+    "i": 1,
+    "t": "h3"
+  },
+  "ca13edcb2af07b35": "Añadir al carrito",
+  "cc90ecd6915d3d41": [
+    {
+      "c": "Reseñas de clientes",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": [
+        {
+          "i": 3,
+          "k": "_gt_n_3",
+          "v": "n"
+        },
+        " de 5 — ",
+        {
+          "i": 4,
+          "k": "_gt_n_4",
+          "v": "n"
+        },
+        " reseñas"
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "d3f83eefb0bd2f01": {
+    "d": {
+      "b": {
+        "many": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " elementos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " elementos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "plural": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " elementos"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "singular": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " elemento"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "d43d8327999de115": "Vaciar carrito",
+  "d531ece6fb8c6908": "Atelier Muebles para el Hogar | General Translation",
+  "d536892d4c7d0388": {
+    "c": "Color",
+    "i": 1,
+    "t": "h3"
+  },
+  "dd4307d70a4178c0": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": "Atelier Home",
+            "i": 3,
+            "t": "h3"
+          },
+          {
+            "c": "Muebles diseñados con cuidado para la vida moderna. Cada pieza está elaborada con materiales sostenibles, con énfasis en la calidad y la durabilidad.",
+            "i": 4,
+            "t": "p"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Recursos de diseño",
+            "i": 6,
+            "t": "h3"
+          },
+          {
+            "c": [
+              {
+                "c": {
+                  "c": "Herman Miller",
+                  "i": 9,
+                  "t": "a"
+                },
+                "i": 8,
+                "t": "li"
+              },
+              {
+                "c": {
+                  "c": "Design Within Reach",
+                  "i": 11,
+                  "t": "a"
+                },
+                "i": 10,
+                "t": "li"
+              },
+              {
+                "c": {
+                  "c": "Dezeen",
+                  "i": 13,
+                  "t": "a"
+                },
+                "i": 12,
+                "t": "li"
+              },
+              {
+                "c": {
+                  "c": "Architectural Digest",
+                  "i": 15,
+                  "t": "a"
+                },
+                "i": 14,
+                "t": "li"
+              }
+            ],
+            "i": 7,
+            "t": "ul"
+          }
+        ],
+        "i": 5,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": "Acerca de esta demo",
+            "i": 17,
+            "t": "h3"
+          },
+          {
+            "c": [
+              "Esta es una aplicación de ejemplo creada con ",
+              {
+                "c": "General Translation",
+                "i": 19,
+                "t": "a"
+              },
+              " para demostrar la internacionalización. No es una tienda ni un servicio real."
+            ],
+            "i": 18,
+            "t": "p"
+          }
+        ],
+        "i": 16,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "de2dbe5fab61d0c3": {
+    "c": "Subtotal",
+    "i": 1,
+    "t": "span"
+  },
+  "e619ac3f4de61fb1": {
+    "c": "Selecciona una habitación arriba para explorar el mobiliario seleccionado para ese espacio.",
+    "i": 1,
+    "t": "p"
+  },
+  "f15a46fd65bc6906": "Habitaciones",
+  "f307a83d2240a0c6": {
+    "c": "Aún no hay reseñas para este producto.",
+    "i": 1,
+    "t": "p"
+  }
+}
