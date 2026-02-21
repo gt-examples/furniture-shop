@@ -1,11 +1,9 @@
-"use client";
-
 import Link from "next/link";
-import { T, Currency, Num, Branch, useGT } from "gt-next";
+import { T, Currency, Num, Branch } from "gt-next";
+import { Tx } from "gt-next/server";
 import type { Product } from "@/data/products";
 
 export default function ProductCard({ product }: { product: Product }) {
-  const t = useGT();
   return (
     <Link href={`/catalog/${product.id}`} className="group block">
       <div className="aspect-[4/3] bg-[#E8E2DA] rounded-lg mb-3 flex items-center justify-center overflow-hidden">
@@ -16,7 +14,7 @@ export default function ProductCard({ product }: { product: Product }) {
           <rect x="25" y="20" width="30" height="10" rx="2" fill="currentColor" opacity="0.5" />
         </svg>
       </div>
-      <h3 className="font-medium text-[#2C2C2C] group-hover:text-[#C9A96E] transition-colors">{t(product.name)}</h3>
+      <h3 className="font-medium text-[#2C2C2C] group-hover:text-[#C9A96E] transition-colors"><Tx>{product.name}</Tx></h3>
       <div className="flex items-center justify-between mt-1">
         <span className="text-[#C9A96E] font-semibold">
           <Currency currency="USD">{product.price}</Currency>

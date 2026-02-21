@@ -1,11 +1,45 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { T, Plural, Num, useGT } from "gt-next";
-import { products, categories, materials, colors } from "@/data/products";
-import ProductCard from "@/components/ProductCard";
+import { T, Plural, Num, Currency, Branch, useGT } from "gt-next";
+import Link from "next/link";
+import { products, categories, materials, colors, type Product } from "@/data/products";
 
-export default function CatalogClient() {
+function ProductCardInline({ product, translatedName }: { product: Product; translatedName: string }) {
+  return (
+    <Link href={`/catalog/${product.id}`} className="group block">
+      <div className="aspect-[4/3] bg-[#E8E2DA] rounded-lg mb-3 flex items-center justify-center overflow-hidden">
+        <svg viewBox="0 0 80 80" width="60" height="60" className="text-[#C9A96E] opacity-30">
+          <rect x="10" y="30" width="60" height="8" rx="2" fill="currentColor" />
+          <rect x="15" y="38" width="4" height="30" rx="1" fill="currentColor" />
+          <rect x="61" y="38" width="4" height="30" rx="1" fill="currentColor" />
+          <rect x="25" y="20" width="30" height="10" rx="2" fill="currentColor" opacity="0.5" />
+        </svg>
+      </div>
+      <h3 className="font-medium text-[#2C2C2C] group-hover:text-[#C9A96E] transition-colors">{translatedName}</h3>
+      <div className="flex items-center justify-between mt-1">
+        <span className="text-[#C9A96E] font-semibold">
+          <Currency currency="USD">{product.price}</Currency>
+        </span>
+        <T>
+          <span className="text-xs">
+            <Branch
+              branch={product.stock}
+              in-stock={<span className="text-green-600">In Stock</span>}
+              backorder={<span className="text-amber-600">Backorder</span>}
+              out-of-stock={<span className="text-red-500">Out of Stock</span>}
+            />
+          </span>
+        </T>
+      </div>
+      <div className="text-xs text-[#6B6B6B] mt-1">
+        <T><Num>{product.rating}</Num> / 5</T>
+      </div>
+    </Link>
+  );
+}
+
+export default function CatalogClient({ productNames }: { productNames: Record<string, string> }) {
   const t = useGT();
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedMaterials, setSelectedMaterials] = useState<string[]>([]);
@@ -79,7 +113,7 @@ export default function CatalogClient() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
             {filtered.map((p) => (
-              <ProductCard key={p.id} product={p} />
+              <ProductCardInline key={p.id} product={p} translatedName={productNames[p.id] || p.name} />
             ))}
           </div>
           {filtered.length === 0 && (

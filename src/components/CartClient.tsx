@@ -7,7 +7,7 @@ import { useCart } from "@/lib/cart-context";
 import { products } from "@/data/products";
 import { shippingRegions } from "@/data/shipping";
 
-export default function CartClient() {
+export default function CartClient({ productNames }: { productNames: Record<string, string> }) {
   const { items, updateQuantity, removeItem, clearCart, totalItems } = useCart();
   const t = useGT();
   const [selectedRegion, setSelectedRegion] = useState("local");
@@ -61,7 +61,7 @@ export default function CartClient() {
               </div>
               <div className="flex-1 min-w-0">
                 <Link href={`/catalog/${productId}`} className="font-medium text-[#2C2C2C] hover:text-[#C9A96E] transition-colors">
-                  {t(product!.name)}
+                  {productNames[productId] || product!.name}
                 </Link>
                 <div className="text-[#C9A96E] font-semibold mt-1">
                   <Currency currency="USD">{product!.price}</Currency>

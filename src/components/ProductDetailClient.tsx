@@ -5,7 +5,21 @@ import { useCart } from "@/lib/cart-context";
 import type { Product } from "@/data/products";
 import type { Review } from "@/data/reviews";
 
-export default function ProductDetailClient({ product, productReviews }: { product: Product; productReviews: Review[] }) {
+export default function ProductDetailClient({
+  product,
+  productReviews,
+  translatedName,
+  translatedDescription,
+  translatedMaterial,
+  translatedReviews,
+}: {
+  product: Product;
+  productReviews: Review[];
+  translatedName: string;
+  translatedDescription: string;
+  translatedMaterial: string;
+  translatedReviews: string[];
+}) {
   const { addItem } = useCart();
   const t = useGT();
   const d = product.dimensions;
@@ -38,7 +52,7 @@ export default function ProductDetailClient({ product, productReviews }: { produ
 
         {/* Product info */}
         <div>
-          <h1 className="text-3xl font-light mb-2">{t(product.name)}</h1>
+          <h1 className="text-3xl font-light mb-2">{translatedName}</h1>
           <div className="text-2xl text-[#C9A96E] font-semibold mb-4">
             <Currency currency="USD">{product.price}</Currency>
           </div>
@@ -52,7 +66,7 @@ export default function ProductDetailClient({ product, productReviews }: { produ
               />
             </div>
           </T>
-          <p className="text-[#6B6B6B] leading-relaxed mb-8">{t(product.description)}</p>
+          <p className="text-[#6B6B6B] leading-relaxed mb-8">{translatedDescription}</p>
 
           {product.stock !== "out-of-stock" && (
             <button onClick={() => addItem(product.id)} className="w-full sm:w-auto bg-[#C9A96E] text-white font-medium px-10 py-3 rounded hover:bg-[#B8985D] transition-colors mb-8">
@@ -78,7 +92,7 @@ export default function ProductDetailClient({ product, productReviews }: { produ
           {/* Materials */}
           <div className="border-t border-[#E0D8CF] pt-6 mt-6">
             <T><h3 className="font-medium mb-2">Materials</h3></T>
-            <p className="text-sm text-[#6B6B6B] capitalize">{t(product.material)}</p>
+            <p className="text-sm text-[#6B6B6B] capitalize">{translatedMaterial}</p>
           </div>
         </div>
       </div>
@@ -100,7 +114,7 @@ export default function ProductDetailClient({ product, productReviews }: { produ
                 <div className="text-[#C9A96E] text-sm mb-2">
                   {"★".repeat(r.rating)}{"☆".repeat(5 - r.rating)}
                 </div>
-                <p className="text-sm text-[#6B6B6B]">{t(r.text)}</p>
+                <p className="text-sm text-[#6B6B6B]">{translatedReviews[i] || r.text}</p>
               </div>
             ))}
           </div>
